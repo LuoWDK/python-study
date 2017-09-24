@@ -10,7 +10,7 @@ from astropy.visualization import astropy_mpl_style
 plt.style.use(astropy_mpl_style)
 
 # Get file path
-fitsfile = os.path.join(wcs.__path__[0], '/home/Maggie/testfits/out1.fits')
+fitsfile = os.path.join(wcs.__path__[0], 'out1.fits')
 
 # Open fits file, then a HDUList object is returned.
 hdulist = fits.open(fitsfile)
